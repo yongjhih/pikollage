@@ -1,4 +1,4 @@
-package pikollage.sample
+package pikollage
 
 import android.net.Uri
 import android.view.View

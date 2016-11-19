@@ -1,4 +1,4 @@
-package pikollage.sample
+package pikollage
 
 import android.os.Bundle
 import android.view.Menu
@@ -10,23 +10,21 @@ import com.trello.rxlifecycle.components.support.RxAppCompatActivity
  * TODO restructure packages:
  *
  * domain/
- * domain/GetRepos
- * domain/GetUsers
- * entity/Repo
- * entity/User
+ * domain/GetPhotos
+ * entity/Photo
+ * entity/Collage
  * presenter/
- * presenter/SimpleReposPresenter
+ * presenter/MainPresenter
  * repository/
- * repository/GitHubRepository
+ * repository/PhotoRepository
  * inject/
  * inject/module/AppModule
- * inject/module/GitHubModule
+ * inject/module/ImageLoaderModule
  * inject/component/MainComponent
  * net/
- * net/GitHubService
+ * net/PhotoService
  * ui/
  * ui/MainActivity
- *
  */
 class MainActivity : RxAppCompatActivity() {
 

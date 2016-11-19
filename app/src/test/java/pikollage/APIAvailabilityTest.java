@@ -1,4 +1,4 @@
-package pikollage.sample;
+package pikollage;
 
 import org.junit.Test;
 

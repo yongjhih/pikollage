@@ -1,4 +1,4 @@
-package pikollage.sample;
+package pikollage;
 
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;

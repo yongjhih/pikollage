@@ -1,4 +1,4 @@
-package pikollage.sample
+package pikollage
 
 import android.content.Context
 import android.os.Bundle
@@ -32,7 +32,7 @@ class MainFragment : RxFragment() {
     //@Inject lateinit var gitHub: GitHub
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater?.inflate(R.layout.fragment_repos, container, false) as RecyclerView
+        val view = inflater?.inflate(R.layout.fragment_main, container, false) as RecyclerView
 
         // Inject gitHub with Dagger2Injection?
         App.mainComponent.inject(this)

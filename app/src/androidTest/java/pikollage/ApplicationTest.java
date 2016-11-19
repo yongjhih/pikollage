@@ -1,4 +1,4 @@
-package pikollage.sample;
+package pikollage;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
