@@ -1,0 +1,10 @@
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+**/*.iml
+**/build
+**/.*.keystore
+hs_err_pid*.log
